@@ -1,5 +1,6 @@
 const resultInput = document.getElementById('result');
 
+// Appends a number to the result input
 function appendNumber(number) {
     resultInput.value += number;
 }
